@@ -1,0 +1,57 @@
+---
+title: "Problem set 3"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+## Lily Shapiro, Csenge Petak
+
+## Question 1:
+We chose that species Staghorn coral (Acropora cervicornis), #215, because we wanted to investigate an endangered species and how one might go about saving one based on their population dynamics. First, we filtered the dataset for corals as coral reefs are known to be declining greatly due to global climate change. These stressors include thermal stress, sedimentation, pollution, and reduction in pH. Then, we looked at the papers pertaining to the matrices associated to corals in the COMADRE animal matrix database. We specifically chose the matrix for Staghorn corals since the article discussing this species investigates the demography of this threatened coral species and implications for its management and conservation, which exactly correlates with work discussed and conducted in this course. 
+
+## Question 2:
+We want to answer the following questions:
+
+* What is the rate of population growth and what is the risk of extinction? 
+
+* What are the factors that most contribute to population growth rate?
+
+* What is the best way to restore the population if it would go to extinct otherwise?
+
+## Question 3:
+
+Eigenvalues:
+
+```{r, warning = FALSE}
+library(popbio)
+load(file="comadre.RData")
+matrix <- comadre$mat[215][[1]]$matA
+e <- eigen(matrix)
+a <- e$values
+a[1]
+```
+
+Stable stage distribution:
+
+```{r}
+stable.stage(matrix)
+```
+
+Elasticity:
+
+```{r}
+elasticity(matrix)
+```
+
+Sensitivity:
+
+```{r}
+sensitivity(matrix)
+```
+
+
+
+
+
+
