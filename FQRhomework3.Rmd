@@ -50,6 +50,17 @@ Sensitivity:
 sensitivity(matrix)
 ```
 
+## Question 4:
+
+a. Dominant eigenvalue = 0.918, population is decreasing by about 8%. Computing the eigenvalue signifies a population decrease, which correlates with an increase in the number and size of threats affecting this particular coral species. Size of colonies and fragmentation (which may also be described as reproductive rate) was observed over 300 colonies for a period of two years. Because the eigenvalue is less than 1, the population will continually decrease, eventually possibly reaching extinction. The paper discusses viability analysis that predicts that populations will eventually reach quasi-extinction levels of 25% the original population size in less than 16 years (Mercado-Molina et al., 2015). 
+
+b. Based on our elasticity and sensitivity analysis, we conclude that the survival rate of the large-sized coral colonies are most integral for population growth of this species. The stable-stage distribution calculation also showed that most of the population would consist of large-sized colonies (42%), rather than small or medium sizes. 
+
+c. Conservation of large-sized coral colonies would be the most efficient way of maintaining the population. By halting the decline and increasing the rate of population growth focusing on maintaining the health and sustainability of large coral colonies, conservation of this species may be feasible. 
+
+
+Citation: 
+Mercado-Molina, A. E., Ruiz-Diaz, C. P., Pérez, M. E., Rodríguez-Barreras, R., & Sabat, A. M. (2015). Demography of the threatened coral Acropora cervicornis: implications for its management and conservation. Coral Reefs, 34(4), 1113–1124. https://doi.org/10.1007/s00338-015-1341-8
 
 
 
