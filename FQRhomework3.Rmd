@@ -1,8 +1,8 @@
 ---
 title: "Problem set 3"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ## Lily Shapiro, Csenge Petak
@@ -63,6 +63,9 @@ Citation:
 Mercado-Molina, A. E., Ruiz-Diaz, C. P., Pérez, M. E., Rodríguez-Barreras, R., & Sabat, A. M. (2015). Demography of the threatened coral Acropora cervicornis: implications for its management and conservation. Coral Reefs, 34(4), 1113–1124. https://doi.org/10.1007/s00338-015-1341-8
 
 
+# Easton comments
 
+- Really nice job on this assignment overall. You clearly communicate from the mathematical results (e.g. eigenvalue) and communicate what it means biologically. - It was smart including the .Rdata file in the same folder so when I downloaded the folder, I could also execute your .Rmd file
+- Plots of the stable age distribution or of the elasticity values may have helped in interpretations.
 
 
